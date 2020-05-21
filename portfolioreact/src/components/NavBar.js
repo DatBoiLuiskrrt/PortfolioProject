@@ -6,7 +6,7 @@ const NavigationBar = (props) => {
 
 
   return (
-    <div>
+    <div >
       <Nav pills>
         <NavItem>
           <NavLink href="#" active>My Portfolio</NavLink>
@@ -17,9 +17,7 @@ const NavigationBar = (props) => {
         <NavItem>
           <NavLink href="#">Another Link</NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
+        
       </Nav>
     </div>
   );
