@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const Nav = styled.div`
   background-color: #fff;
@@ -63,7 +64,7 @@ function NavBar () {
           <NavRight>
   
             <MenuLink href="#">
-            <Icon className="fab fa-linkedin"/>
+            <LinkedInIcon/>
 
             </MenuLink>
   
