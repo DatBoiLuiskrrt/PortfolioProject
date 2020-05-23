@@ -63,7 +63,7 @@ function NavBar () {
           <NavRight>
   
             <MenuLink href="#">
-           { <i class="fab fa-linkedin"></i>}
+            <Icon className="fab fa-linkedin"/>
 
             </MenuLink>
   
