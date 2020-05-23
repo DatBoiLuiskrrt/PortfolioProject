@@ -2,9 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import WebIcon from '@material-ui/icons/Web';
 const Nav = styled.div`
   background-color: #fff;
+
   border-bottom: 1px solid rgba(0,0,0,.0975);
 `
 const NavHeader = styled.div`
@@ -18,6 +19,7 @@ const NavHeader = styled.div`
 const NavLeft = styled.div`
   width: 33.333%;
   text-align: left;
+  font-family: Lucida Console;
 `
 const NavCenter = styled.div`
   width: 33.333%;
@@ -49,6 +51,7 @@ const NavRight = styled.div`
   }
 `
 const MenuLink = styled.a`
+
 `
 
 function NavBar () {
@@ -63,19 +66,21 @@ function NavBar () {
           </NavCenter>
   
           <NavRight>
-  
-            <MenuLink href="#">
+             <MenuLink href="#">
+              <WebIcon/>  
+             </MenuLink>
+             
+            <MenuLink href="https://www.linkedin.com/in/datboiluiskrrt/" target="_blank">
             <LinkedInIcon/>
 
             </MenuLink>
   
-            <MenuLink href="#">
+            <MenuLink href="https://github.com/DatBoiLuiskrrt"
+            target="_blank">
              <GitHubIcon/>
             </MenuLink>
   
-            <MenuLink href="#">
-             
-            </MenuLink>
+           
             
           </NavRight>
   
